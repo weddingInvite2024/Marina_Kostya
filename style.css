@@ -281,35 +281,35 @@ p{
 .color1{
   max-width:90px;
   width: 100%;
-  background-color:#FFF8DC;
+  background-color:#aaafb0;
   height:120px;
   border-radius: 40px;
 }
 .color2{
   max-width:90px;
   width: 100%;
-  background-color:#C0C0C0;
+  background-color:#97978a;
   height:120px;
   border-radius: 40px;
 }
 .color3{
   max-width:90px;
   width: 100%;
-  background-color:#FFDEAD;
+  background-color:#717152;
   height:120px;
   border-radius: 40px;
 }
 .color4{
   max-width:90px;
   width: 100%;
-  background-color:	#A9A9A9;
+  background-color:	#7c7054;
   height:120px;
   border-radius: 40px;
 }
 .color5{
   max-width:90px;
   width: 100%;
-  background-color:	#DEB887;
+  background-color:	#ab6d50;
   height:120px;
   border-radius: 40px;
 }
@@ -448,6 +448,41 @@ gap:15px;
     top:-23px;
 
   }
+  .color1{
+  max-width:90px;
+  width: 100%;
+  background-color:#aaafb0;
+  height: 50px;
+  border-radius: 50px;
+}
+.color2{
+  max-width:90px;
+  width: 100%;
+  background-color:#97978a;
+  height: 50px;
+  border-radius: 50px;
+}
+.color3{
+  max-width:90px;
+  width: 100%;
+  background-color:#717152;
+  height: 50px;
+  border-radius: 50px;
+}
+.color4{
+  max-width:90px;
+  width: 100%;
+  background-color:	#7c7054;
+  height: 50px;
+  border-radius: 50px;
+}
+.color5{
+  max-width:90px;
+  width: 100%;
+  background-color:	#ab6d50;
+  height: 50px;
+  border-radius: 50px;
+}
   .blockWithLink{
     flex-direction: column;
   }
