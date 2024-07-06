@@ -1,0 +1,575 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+  margin:0;
+  background-color: #eaeaea ;
+  font-family: "Noto Serif", serif;
+}
+div{
+  margin:0
+}
+
+p{
+  margin:0;
+}
+
+.mainContent{
+  max-width: 1000px;
+  margin: auto;
+  width: 100%;
+}
+.textblock1{
+  display:flex;
+  flex-direction: column;
+  gap:20px;
+  justify-content: center;
+}
+.names{
+  display: flex;
+  color: #454545;
+  font-size: 120px;
+  align-items: center;
+  justify-content: center;
+  font-family: "Great Vibes", cursive;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+.date{
+  display: flex;
+  color: #454545;
+  font-size: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.invite{
+  color: #dbaf96;;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  text-align:center;
+
+}
+.pic1{
+  width:100%;
+  border-radius: 25px;
+}
+.weWedding1{
+  display:flex;
+  color: black;
+  font-size: 60px;
+  justify-content: flex-start;
+}
+.weWedding2{
+  display:flex;
+  position:absolute;
+  color: #dbaf96;
+  top: -40px;
+  left: -10px;
+  opacity: 40%;
+  font-size:100px;
+}
+.block3{
+  margin:30px;
+  position: relative;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.blockText1{
+  color: #454545;
+  font-size: 20px;
+  display: flex;
+  max-width:400px;
+  width:100%;
+  justify-content: flex-start;
+}
+.line1{
+  color: #dbaf96;
+  height:3px;
+  background-color: orange;
+  max-width:400px;
+  width:100%;
+  border: none;
+}
+.line2{
+  color: #dbaf96;
+  height:3px;
+  background-color: orange;
+  max-width:400px;
+  width:100%;
+  border: none;
+}
+.date2block{
+  max-width:400px;
+  width:100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.date2{  
+  color: #dbaf96;
+  font-size: 35px;
+}
+.hearts{
+  max-width: 200px;
+  width:100%;
+}
+.contentBlock3{
+  margin: 20px;
+  align-items: center;
+  display:flex;
+  flex-direction: column;
+  justify-content:flex-end;
+}
+.withLove{
+  color: #454545;
+  font-size: 15px;
+  font-weight: 500;
+}
+.block4{
+  display:flex;
+  flex-direction: row;
+  padding-top:20px;
+  justify-content:space-between;
+}
+.pic3{
+  border-color: #dbaf96;
+  border-width: 1px;
+  border-radius: 20px;
+  max-width:800px;
+  width:100%;
+}
+.block5{
+  margin-top: 20px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap:20px;
+}
+.block5content{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+}
+.pic4{
+  max-width:400px;
+  width:100%;
+  border-radius: 20px;
+  display: flex;
+}
+.picc{
+  display:flex;
+  max-width:80px;
+  width:100%;
+}
+.pic5{
+  max-width: 300px;
+  
+}
+.historyLove{
+  color: #454545;
+  font-size: 30px;
+}
+.block61{
+  display: flex;
+  max-width:600px;
+  width:100%;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-top:50px;
+}
+.block62{
+  display: flex;
+  max-width:600px;
+  width:100%;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-top:50px;
+}
+.block62mobile{
+  display:none;
+}
+.block63{
+  display: flex;
+  max-width:600px;
+  width:100%;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-top:50px;
+}
+.weNeed{
+  color: #454545;
+  font-size: 40px;
+}
+.nameOfBlock{
+  color: #454545;
+  font-size: 40px;
+  max-width: 250px;
+  width:100%;
+}
+.pic7{
+  border-radius: 20px;
+  display: flex;
+  max-width: 419px;
+  width:100%;
+}
+.block6Content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap:150px;
+}
+.line3{
+  height:2px;
+  background-color: orange;
+  border:none;
+  
+}
+.tag{
+  color: #454545;
+  font-size: 20px;
+  display: flex;
+}
+.blockTag{
+  padding-top:10px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap:40px;
+}
+.nameOfBlock{
+  color: black;
+  font-size: 24px;
+
+}
+.flex{
+  display:flex;
+}
+.list{
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+  gap:40px;
+}
+.colors{
+  display:flex;
+  flex-direction: row;
+  gap:40px;
+  justify-content: space-between;
+  position:relative;
+}
+.nameoflist{
+  color:black;
+}
+.dress{
+  color:#dbaf96;
+  font-size: 80px;
+  letter-spacing: 10px;
+  text-align: end;
+  margin-top: 40px;
+  top: 50px;
+  position: absolute;
+  opacity: 40%;
+  left: 200px;
+}
+.color1{
+  max-width:90px;
+  width: 100%;
+  background-color:#FFF8DC;
+  height:120px;
+  border-radius: 40px;
+}
+.color2{
+  max-width:90px;
+  width: 100%;
+  background-color:#C0C0C0;
+  height:120px;
+  border-radius: 40px;
+}
+.color3{
+  max-width:90px;
+  width: 100%;
+  background-color:#FFDEAD;
+  height:120px;
+  border-radius: 40px;
+}
+.color4{
+  max-width:90px;
+  width: 100%;
+  background-color:	#A9A9A9;
+  height:120px;
+  border-radius: 40px;
+}
+.color5{
+  max-width:90px;
+  width: 100%;
+  background-color:	#DEB887;
+  height:120px;
+  border-radius: 40px;
+}
+
+.block7{
+  display:flex;
+  margin-top: 40px;
+  flex-direction: column;
+  gap:30px;
+  position:relative;
+  
+}
+.colorshead{
+  color: #454545;
+  font-size: 30px;
+  display:flex;
+  max-width: 600px;
+  width: 100%;
+}
+.inscription1{
+  color: #dbaf96;
+  position:absolute;
+  font-size:45px;
+  top:-15px;
+  opacity:40%;
+  letter-spacing: 8px;
+}
+.nameoflist{
+  font-size:30px;
+}
+.list1{
+  position:relative;
+}
+.block8{
+  padding-top:40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap:140px;
+  padding-bottom:40px;
+}
+.pic10{
+  max-width: 419px;
+  width:100%;
+  display:flex;
+  border-radius: 20px;
+}
+.block8Content{
+  display:flex;
+  flex-direction: column;
+  gap:20px;
+}
+.pic11{
+  max-width:90px;
+  width:100%;
+  padding-left: 150px;
+}
+.block8Content{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    gap:20px;
+}
+.block8Text1{
+  color: #454545;
+  font-size: 30px;
+}
+.block8Text2{
+  color: black;
+  font-size: 20px;
+}
+.contact{
+  color: #454545;
+  font-size: 30px;
+}
+.weNeed{
+  color: #454545;
+  font-size: 40px;
+  display:flex;
+  max-width: 500px;
+  width:100%;
+}
+.blockWithForm{
+  display:flex;
+  flex-direction: row;
+}
+.link{
+  font-size:24px;
+  justify-content: center;
+  text-decoration: none;
+  display: flex;
+  color:black;
+}
+.carta{
+max-width: 500px;
+width:100%;
+justify-content: center;
+background-color:#FAEBD7;
+padding: 32px;
+border-radius: 32px;
+margin: 30px auto 64px;
+display: flex;
+margin-right: 0px;
+flex-direction: column;
+gap:15px;
+}
+.blocks6{
+  display:flex;
+  flex-direction:column;
+  gap:30px;
+}
+
+ 
+.blockWithLink{
+  padding-top:40px;
+}
+@media(max-width:480px){
+  .names{
+    font-size: 45px;
+    justify-content: center;
+  }
+  .textblock1{
+    display:flex;
+    width:100%;
+  }
+  .mainContent{
+    max-width: 480px;
+    width:100%;
+  }
+  .weWedding1{
+    font-size:20px;
+    
+  }
+  .weWedding2{
+    font-size:40px;
+    top:-23px;
+
+  }
+  .blockWithLink{
+    flex-direction: column;
+  }
+  .block6{
+    flex-direction: row;
+    gap:10px;
+    height:90px;
+  }
+  .block4{
+    max-height: 260px;
+    height:100%;
+  }
+  .picc{
+    max-height:140px;
+  }
+  .block6Content{
+    flex-direction: row;
+  }
+  .block8{
+    flex-direction: column;
+  }
+  .pic4{
+    max-width:200px;
+    width:100%;
+  }
+  .pic5{
+    max-height:75px;
+  }
+  .historyLove{
+    font-size:15px;
+  }
+  .historLoveContent{
+    font-size:8px;
+  }
+  .pic7{
+    max-width: 150px;
+    width: 100%;
+  }
+  .pic10{
+      max-width: 200px;
+      width: 100%;
+  }
+  .nameOfBlock{
+    font-size:15px;
+    padding-bottom: 20px;
+  }
+  .list{
+    gap:10px;
+  }
+  .line{
+    max-width:120px;
+  }
+
+  .colorshead {
+      color: #454545;
+      font-size: 15px;
+      display: flex;
+     max-width:200px;
+  }
+  .block6Content{
+    gap:10px;
+ 
+  }
+  .nameOfList{
+    font-size:15px;
+  }
+    .tag{
+      font-size:8px;
+    }
+  .inscription1 {
+    font-size: 20px;
+    right: 20px;
+    letter-spacing: 2px;
+  }
+  .nameoflist {
+  font-size:15px;
+  }
+  .list{
+    justify-content:flex-end;
+    max-width:140px;
+  }
+  .blocklist{
+    justify-content:flex-end;
+    display:flex;
+  }
+  .weNeed{
+    font-size: 20px;
+  }
+  .mainContent{
+    padding:10px;
+  }
+  .inscription1 {
+    font-size:20px;
+    }
+  .dress{
+    text-align: end;
+    font-size:40px;
+  }
+  .flex{
+    display:none;
+  }
+  .block8Text1 {
+    font-size:10px;
+  }
+  .block8Text2{
+    font-size:8px;
+  }
+  .contact{
+    font-size:10px;
+  }
+  .color{
+    
+  }
+  .pic11{
+    display: none;
+  }
+  .block8{
+    flex-direction: row;
+    gap:15px;
+    justify-content:flex-start;
+  }
+  .block8Content{
+    gap:13px;
+  }
+}
